@@ -12,6 +12,20 @@
 
 
 
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
 
 
 
@@ -57,6 +71,8 @@
         
 
         
+            <lastBuildDate>2024-11-13 19:47:27 +0100 CET</lastBuildDate>
+        
 
         <link>http://localhost:1313/</link>
 
@@ -66,6 +82,92 @@
 
         
 
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+                    
+                
+
+                
+                
+
+                
+
+                
+
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2024-11-13:/markdown/</guid>
+
+                
+                    <link>http://localhost:1313/markdown/</link>
+                
+
+                
+                    <pubDate>Wed, 13 Nov 2024 19:47:27 CET</pubDate>
+                
+
+                
+                    <title>Markdown</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+                    
+                
+
+                
+                
+
+                
+
+                
+
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2024-11-13:/principal/</guid>
+
+                
+                    <link>http://localhost:1313/principal/</link>
+                
+
+                
+                    <pubDate>Wed, 13 Nov 2024 10:47:37 CET</pubDate>
+                
+
+                
+                    <title>Hablando un poco de mi <3</title>
+                
+            </item>
         
     </channel>
 </rss>
