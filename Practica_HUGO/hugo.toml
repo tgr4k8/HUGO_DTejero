@@ -1,3 +1,4 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Práctica 1 de HUGO'
+theme = "paige"
