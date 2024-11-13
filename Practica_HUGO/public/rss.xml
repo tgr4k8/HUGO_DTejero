@@ -13,7 +13,11 @@
 
 
     
+
+    
         
+    
+
     
 
     
@@ -71,8 +75,6 @@
         
 
         
-            <lastBuildDate>2024-11-13 19:47:27 +0100 CET</lastBuildDate>
-        
 
         <link>http://localhost:1313/</link>
 
@@ -111,14 +113,14 @@
 
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2024-11-13:/markdown/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/markdown/</guid>
 
                 
                     <link>http://localhost:1313/markdown/</link>
                 
 
                 
-                    <pubDate>Wed, 13 Nov 2024 19:47:27 CET</pubDate>
+                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
                 
 
                 
@@ -154,18 +156,61 @@
 
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2024-11-13:/principal/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/principal/</guid>
 
                 
                     <link>http://localhost:1313/principal/</link>
                 
 
                 
-                    <pubDate>Wed, 13 Nov 2024 10:47:37 CET</pubDate>
+                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
                 
 
                 
                     <title>Hablando un poco de mi <3</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+                    
+                
+
+                
+                
+
+                
+
+                
+
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/carrusel/</guid>
+
+                
+                    <link>http://localhost:1313/carrusel/</link>
+                
+
+                
+                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                
+
+                
+                    <title>Carrusel</title>
                 
             </item>
         

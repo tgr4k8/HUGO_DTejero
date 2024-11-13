@@ -3,3 +3,4 @@ languageCode = 'en-us'
 title = 'Práctica 1 de HUGO'
 contentDir = "content"
 theme = "paige"
+ignoreLogs = ['warning-goldmark-raw-html']
