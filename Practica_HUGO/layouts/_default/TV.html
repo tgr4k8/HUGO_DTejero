@@ -1,0 +1,39 @@
+<table>
+    <!-- Iterar sobre las categorías de TV -->
+    {{range .Site.Data.tv}}
+    <tr>
+        <!-- Título general de la categoría -->
+        <th colspan="4">
+            <h2>{{.name}}</h2>
+        </th>
+    </tr>
+    <tr>
+        <!-- Inicializar contador -->
+        {{$cont := 0}}
+        <!-- Iterar sobre los canales dentro de la categoría -->
+        {{range .channels}}
+        <td>
+            <a href="{{.web}}">
+                <img src="{{.logo}}" alt="{{.name}}">
+                <p>{{.name}}</p> <!-- Mostrar el nombre del canal -->
+            </a>
+        </td>
+
+        <!-- Incrementar el contador -->
+        {{$cont = add $cont 1}}
+
+        <!-- Verificar si se alcanza el límite de 4 canales por fila -->
+        {{if eq (mod $cont 4) 0}}
+    </tr><tr> <!-- Cerrar fila y abrir una nueva -->
+    {{end}}
+    {{end}}
+
+    <!-- Cerrar la fila en caso de que no esté completa -->
+    {{if ne (mod $cont 4) 0}}
+    {{range seq (mod $cont 4) 4}}
+    <td></td> <!-- Agregar celdas vacías para completar la fila -->
+    {{end}}
+</tr>
+    {{end}}
+    {{end}}
+</table>

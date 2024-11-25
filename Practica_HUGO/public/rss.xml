@@ -13,6 +13,14 @@
 
 
     
+        
+    
+
+    
+        
+    
+
+    
 
     
         
@@ -52,7 +60,7 @@
             
 
             
-                <link href="http://localhost:1313/" rel="self" type="text/html"/>
+                <link href="http://localhost:35255/" rel="self" type="text/html"/>
             
         
             
@@ -60,7 +68,7 @@
             
 
             
-                <link href="http://localhost:1313/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="http://localhost:35255/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -75,8 +83,10 @@
         
 
         
+            <lastBuildDate>2024-10-14 11:01:08 +0200 CEST</lastBuildDate>
+        
 
-        <link>http://localhost:1313/</link>
+        <link>http://localhost:35255/</link>
 
         
 
@@ -84,6 +94,50 @@
 
         
 
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<p>##Listado de canales:</p>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:35255,2024-10-14:/tv/tv/</guid>
+
+                
+                    <link>http://localhost:35255/tv/tv/</link>
+                
+
+                
+                    <pubDate>Mon, 14 Oct 2024 11:01:08 CEST</pubDate>
+                
+
+                
+                    <title>Tv pagina</title>
+                
+            </item>
         
             <item>
                 
@@ -113,10 +167,10 @@
 
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/markdown/</guid>
+                <guid isPermaLink="false">tag:localhost:35255,0001-01-01:/markdown/</guid>
 
                 
-                    <link>http://localhost:1313/markdown/</link>
+                    <link>http://localhost:35255/markdown/</link>
                 
 
                 
@@ -144,8 +198,6 @@
                 
 
                 
-                    
-                
 
                 
                 
@@ -155,11 +207,31 @@
                 
 
                 
+                    <description><![CDATA[<hr>
+<h1 id="mis-aficiones">Mis aficiones:</h1>
+<p>En el tiempo que llevo vivido he pasado por muchos tipos de intereses diferentes. Me considero una de esas personas
+que no le gusta hacer siempre lo mismo, la monotonia apaga al ser. De pequeño fui a clases de pintura, jugue al futbol en el equipo del barrio,
+luego pase al balonmano y entre medias también aprendí a tocar la guitarra. Ahora un poco más adulto esa necesidad imperiosa de descubrir
+cosas nuevas se ha reducido pero sigue ahí ese sentimiento de querer conocer todo lo posible que este inmenso mundo ofrece.
+La libertad de la movilidad en furgoneta ha hecho que pueda descubir sitios que antes eran solo vacacionales, desde ir a hacer una via
+ferrata un fin de semana, a subir a picos nevados en agosto, pasando por bucear en playas cristalinas intenando coger escurridizos peces de colores
+que siempre ganaban la batalla. Las ganas joder, eso es lo que mueve todo.</p>
+<h1 id="mis-gustos">Mis gustos:</h1>
+<p>Al compas del ritmo anterior no puedo encasillarme en un gusto estatico. Conciertos en festivales con osos que bailaban como putos locos
+dando brazadas intentando no naufragar en un mar de gente, o conciertos de año nuevo en un audorio soltando la lagrimilla que brota de
+un tema de Vivaldi, han sido mis gustos en cuanto a música. No soy fanatico ni hooligan de un estilo único pues creo que en la variedad
+es donde esta la plenitud. En cuanto a comer no tengo dudas, se me hace la boca agua con un bocado a un trozo de carne sebosa bien salada
+cocinada a la brasa, no desprecio a las verduras y admiro a los vegetarienses, pero me puede el sabor a carne fresca.</p>
+<h1 id="sobre-mi">Sobre mi:</h1>
+<p>Un lobo que necesita a la manada pero que entiende que en la lucha solo puedes usar tus propias garras.</p>
+<p><img src="/images/img.png" alt="Foto de ejemplo"></p>
+]]></description>
+                
 
-                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/principal/</guid>
+                <guid isPermaLink="false">tag:localhost:35255,0001-01-01:/principal/</guid>
 
                 
-                    <link>http://localhost:1313/principal/</link>
+                    <link>http://localhost:35255/principal/</link>
                 
 
                 
@@ -167,7 +239,7 @@
                 
 
                 
-                    <title>Hablando un poco de mi <3</title>
+                    <title>Hablando un poco de mi:</title>
                 
             </item>
         
@@ -199,10 +271,10 @@
 
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/carrusel/</guid>
+                <guid isPermaLink="false">tag:localhost:35255,0001-01-01:/carrusel/</guid>
 
                 
-                    <link>http://localhost:1313/carrusel/</link>
+                    <link>http://localhost:35255/carrusel/</link>
                 
 
                 
