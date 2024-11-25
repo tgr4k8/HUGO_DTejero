@@ -25,5 +25,10 @@ ignoreLogs = ['warning-goldmark-raw-html']
   url = "/tv/"
   weight = 4
 
+ [[menu.main]]
+   name = "Suiza"
+   url = "/Verano en Suiza/"
+   weight = 5
+
 [markup.goldmark.renderer]
       unsafe = true

@@ -1,0 +1,17 @@
+<div id="carruselExample" class="carrusel slide" data-bs-ride="carrusel">
+    <div class="carrusel-inner">
+        {{ range .Site.Data.carrusel.images }}
+        <div class="carrusel-item {{ if eq (index .Site.Data.carrusel.images 0) . }}active{{ end }}">
+            <img src="{{ .url }}" class="d-block w-100" alt="{{ .alt }}">
+        </div>
+        {{ end }}
+    </div>
+    <button class="carrusel-control-prev" type="button" data-bs-target="#carruselExample" data-bs-slide="prev">
+        <span class="carrusel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carrusel-control-next" type="button" data-bs-target="#carruselExample" data-bs-slide="next">
+        <span class="carrusel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
