@@ -48,7 +48,7 @@
             
 
             
-                <link href="http://localhost:40303/markdown/" rel="self" type="text/html"/>
+                <link href="http://localhost:42901/markdown/" rel="self" type="text/html"/>
             
         
             
@@ -56,7 +56,7 @@
             
 
             
-                <link href="http://localhost:40303/markdown/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="http://localhost:42901/markdown/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -72,7 +72,7 @@
 
         
 
-        <link>http://localhost:40303/markdown/</link>
+        <link>http://localhost:42901/markdown/</link>
 
         
 
@@ -111,14 +111,32 @@
 <hr>
 <h2 id="markdown-básico">Markdown Básico</h2>
 <h3 id="títulos">Títulos</h3>
-<p>Usa <code>#</code> para crear títulos. Cuantos más <code>#</code>, más bajo el nivel del encabezado.</p>
+<p>Usa <code>#</code> para crear títulos. Cuantos más <code>#</code>, más bajo el nivel del encabezado.
+Ejemplo:</p>
+<pre tabindex="0"><code># Título 1
+## Título 2
+### Título 3
+</code></pre><p>Que se verían:</p>
 <h1 id="título-1">Título 1</h1>
 <h2 id="título-2">Título 2</h2>
 <h3 id="título-3">Título 3</h3>
+<h2 id="formatos-de-texto">Formatos de texto</h2>
+<p>Ejemplo de negrita, cursiva y tachado:</p>
+<pre tabindex="0"><code>**Texto en negrita**
+*Texto en cursiva*
+~~Texto tachado~~
+</code></pre><p>Esto se vería:</p>
 <p><strong>Texto en negrita</strong>
 <em>Texto en cursiva</em>
 <del>Texto tachado</del></p>
 <h2 id="listas">Listas:</h2>
+<p>Para visualizar listas numeradas o no podemos hacerlo:</p>
+<pre tabindex="0"><code>- Elemento 1
+- Elemento 2
+
+1. Elemento 1
+2. Elemento 2
+</code></pre><p>Y esto se vería:</p>
 <ul>
 <li>Elemento 1</li>
 <li>Elemento 2</li>
@@ -128,15 +146,20 @@
 <li>Elemento 2</li>
 </ol>
 <h2 id="enlaces-e-imágenes">Enlaces e imágenes</h2>
+<p>Ejemplo:</p>
+<pre tabindex="0"><code>[Visita Hugo](https://gohugo.io)
+
+![Imagen de archivo](/images/img.png)
+</code></pre><p>Esto se ve:</p>
 <p><a href="https://gohugo.io">Visita Hugo</a></p>
-<p><img src="/images/img.png" alt="Logo de Hugo"></p>
+<p><img src="/images/img.png" alt="Imagen de archivo"></p>
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:40303,0001-01-01:/markdown/basico/</guid>
+                <guid isPermaLink="false">tag:localhost:42901,0001-01-01:/markdown/basico/</guid>
 
                 
-                    <link>http://localhost:40303/markdown/basico/</link>
+                    <link>http://localhost:42901/markdown/basico/</link>
                 
 
                 
@@ -229,10 +252,10 @@ graph TD;
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:40303,0001-01-01:/markdown/avanzado/</guid>
+                <guid isPermaLink="false">tag:localhost:42901,0001-01-01:/markdown/avanzado/</guid>
 
                 
-                    <link>http://localhost:40303/markdown/avanzado/</link>
+                    <link>http://localhost:42901/markdown/avanzado/</link>
                 
 
                 

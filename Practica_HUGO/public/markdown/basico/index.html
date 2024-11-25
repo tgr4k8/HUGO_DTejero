@@ -35,7 +35,7 @@
 
 
 
-<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=40303&amp;path=livereload" data-no-instant defer></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.4.0/mermaid.min.js"></script>
+<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=42901&amp;path=livereload" data-no-instant defer></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.4.0/mermaid.min.js"></script>
 <script>
     mermaid.initialize({ startOnLoad: true });
 </script>
@@ -62,13 +62,13 @@
 <meta content="#0d6efd" name="theme-color">
 <meta content="width=device-width, initial-scale=1" name="viewport">
 
-<meta property="og:url" content="http://localhost:40303/markdown/basico/">
+<meta property="og:url" content="http://localhost:42901/markdown/basico/">
   <meta property="og:site_name" content="Práctica 1 de HUGO">
   <meta property="og:title" content="Markdown Básico">
   <meta property="og:description" content="Introducción a Markdown Markdown es un lenguaje de marcado ligero que permite crear texto formateado utilizando una sintaxis sencilla. Es ampliamente utilizado para escribir documentación, blogs, y para sistemas de control de versiones como GitHub.
-Markdown Básico Títulos Usa # para crear títulos. Cuantos más #, más bajo el nivel del encabezado.
-Título 1 Título 2 Título 3 Texto en negrita Texto en cursiva Texto tachado
-Listas: Elemento 1 Elemento 2 Elemento 1 Elemento 2 Enlaces e imágenes Visita Hugo">
+Markdown Básico Títulos Usa # para crear títulos. Cuantos más #, más bajo el nivel del encabezado. Ejemplo:
+# Título 1 ## Título 2 ### Título 3 Que se verían:
+Título 1 Título 2 Título 3 Formatos de texto Ejemplo de negrita, cursiva y tachado:">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="markdown">
@@ -77,9 +77,9 @@ Listas: Elemento 1 Elemento 2 Elemento 1 Elemento 2 Enlaces e imágenes Visita H
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Markdown Básico">
   <meta name="twitter:description" content="Introducción a Markdown Markdown es un lenguaje de marcado ligero que permite crear texto formateado utilizando una sintaxis sencilla. Es ampliamente utilizado para escribir documentación, blogs, y para sistemas de control de versiones como GitHub.
-Markdown Básico Títulos Usa # para crear títulos. Cuantos más #, más bajo el nivel del encabezado.
-Título 1 Título 2 Título 3 Texto en negrita Texto en cursiva Texto tachado
-Listas: Elemento 1 Elemento 2 Elemento 1 Elemento 2 Enlaces e imágenes Visita Hugo">
+Markdown Básico Títulos Usa # para crear títulos. Cuantos más #, más bajo el nivel del encabezado. Ejemplo:
+# Título 1 ## Título 2 ### Título 3 Que se verían:
+Título 1 Título 2 Título 3 Formatos de texto Ejemplo de negrita, cursiva y tachado:">
 
 
 
@@ -716,6 +716,7 @@ table {
         <li><a href="#título-3">Título 3</a></li>
       </ul>
     </li>
+    <li><a href="#formatos-de-texto">Formatos de texto</a></li>
     <li><a href="#listas">Listas:</a></li>
     <li><a href="#enlaces-e-imágenes">Enlaces e imágenes</a></li>
   </ul>
@@ -736,14 +737,32 @@ table {
 <hr>
 <h2 id="markdown-básico">Markdown Básico<a aria-label="Link to this section" class="paige-header-link" href="#markdown-básico"></a></h2>
 <h3 id="títulos">Títulos<a aria-label="Link to this section" class="paige-header-link" href="#títulos"></a></h3>
-<p>Usa <code>#</code> para crear títulos. Cuantos más <code>#</code>, más bajo el nivel del encabezado.</p>
+<p>Usa <code>#</code> para crear títulos. Cuantos más <code>#</code>, más bajo el nivel del encabezado.
+Ejemplo:</p>
+<pre tabindex="0"><code># Título 1
+## Título 2
+### Título 3
+</code></pre><p>Que se verían:</p>
 <h1 id="título-1">Título 1<a aria-label="Link to this section" class="paige-header-link" href="#título-1"></a></h1>
 <h2 id="título-2">Título 2<a aria-label="Link to this section" class="paige-header-link" href="#título-2"></a></h2>
 <h3 id="título-3">Título 3<a aria-label="Link to this section" class="paige-header-link" href="#título-3"></a></h3>
+<h2 id="formatos-de-texto">Formatos de texto<a aria-label="Link to this section" class="paige-header-link" href="#formatos-de-texto"></a></h2>
+<p>Ejemplo de negrita, cursiva y tachado:</p>
+<pre tabindex="0"><code>**Texto en negrita**
+*Texto en cursiva*
+~~Texto tachado~~
+</code></pre><p>Esto se vería:</p>
 <p><strong>Texto en negrita</strong>
 <em>Texto en cursiva</em>
 <del>Texto tachado</del></p>
 <h2 id="listas">Listas:<a aria-label="Link to this section" class="paige-header-link" href="#listas"></a></h2>
+<p>Para visualizar listas numeradas o no podemos hacerlo:</p>
+<pre tabindex="0"><code>- Elemento 1
+- Elemento 2
+
+1. Elemento 1
+2. Elemento 2
+</code></pre><p>Y esto se vería:</p>
 <ul>
 <li>Elemento 1</li>
 <li>Elemento 2</li>
@@ -753,8 +772,13 @@ table {
 <li>Elemento 2</li>
 </ol>
 <h2 id="enlaces-e-imágenes">Enlaces e imágenes<a aria-label="Link to this section" class="paige-header-link" href="#enlaces-e-imágenes"></a></h2>
+<p>Ejemplo:</p>
+<pre tabindex="0"><code>[Visita Hugo](https://gohugo.io)
+
+![Imagen de archivo](/images/img.png)
+</code></pre><p>Esto se ve:</p>
 <p><a href="https://gohugo.io">Visita Hugo</a></p>
-<p><img src="/images/img.png" alt="Logo de Hugo"></p>
+<p><img src="/images/img.png" alt="Imagen de archivo"></p>
 </main>
         
 
@@ -784,7 +808,7 @@ table {
                 
 
                 
-                    <div class="paige-row-narrow text-center text-secondary" id="paige-prev">&lsaquo; <a class="link-secondary" href="http://localhost:40303/markdown/avanzado/">Markdown Avanzado</a></div>
+                    <div class="paige-row-narrow text-center text-secondary" id="paige-prev">&lsaquo; <a class="link-secondary" href="http://localhost:42901/markdown/avanzado/">Markdown Avanzado</a></div>
                 
             </div>
         

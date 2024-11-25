@@ -1,0 +1,79 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="es"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="http://localhost:42901/es/" rel="self" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="http://localhost:42901/es/rss.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+            
+                
+            
+                
+                    <link href="http://localhost:42901/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
+                
+            
+        
+
+        
+
+        <description>Contenido reciente</description>
+
+        
+            <language>es</language>
+        
+
+        
+
+        <link>http://localhost:42901/es/</link>
+
+        
+
+        <title>Práctica 1 de HUGO</title>
+
+        
+
+        
+    </channel>
+</rss>
