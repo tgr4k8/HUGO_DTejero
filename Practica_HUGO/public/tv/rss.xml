@@ -13,8 +13,6 @@
 
 
     
-        
-    
 
     
         
@@ -44,7 +42,7 @@
             
 
             
-                <link href="http://localhost:35255/tv/" rel="self" type="text/html"/>
+                <link href="http://localhost:40303/tv/" rel="self" type="text/html"/>
             
         
             
@@ -52,7 +50,7 @@
             
 
             
-                <link href="http://localhost:35255/tv/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="http://localhost:40303/tv/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -67,10 +65,8 @@
         
 
         
-            <lastBuildDate>2024-10-14 11:01:08 +0200 CEST</lastBuildDate>
-        
 
-        <link>http://localhost:35255/tv/</link>
+        <link>http://localhost:40303/tv/</link>
 
         
 
@@ -104,22 +100,22 @@
                 
 
                 
-                    <description><![CDATA[<p>##Listado de canales:</p>
+                    <description><![CDATA[<h2 id="lista-de-canales">Lista de canales:</h2>
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:35255,2024-10-14:/tv/tv/</guid>
+                <guid isPermaLink="false">tag:localhost:40303,0001-01-01:/tv/tv/</guid>
 
                 
-                    <link>http://localhost:35255/tv/tv/</link>
-                
-
-                
-                    <pubDate>Mon, 14 Oct 2024 11:01:08 CEST</pubDate>
+                    <link>http://localhost:40303/tv/tv/</link>
                 
 
                 
-                    <title>Tv pagina</title>
+                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                
+
+                
+                    <title>TV página</title>
                 
             </item>
         

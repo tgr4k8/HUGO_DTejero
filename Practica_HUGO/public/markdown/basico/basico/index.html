@@ -7,7 +7,6 @@
 
 
 
-
 <html  data-paige="Paige theme from https://github.com/willfaught/paige"   lang="en-us" >
 
     
@@ -29,11 +28,8 @@
 
 
 
-<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=40303&amp;path=livereload" data-no-instant defer></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.4.0/mermaid.min.js"></script>
-<script>
-    mermaid.initialize({ startOnLoad: true });
-</script>
-<head>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=40303&amp;path=livereload" data-no-instant defer></script>
     
 
     
@@ -56,20 +52,23 @@
 <meta content="#0d6efd" name="theme-color">
 <meta content="width=device-width, initial-scale=1" name="viewport">
 
-<meta property="og:url" content="http://localhost:40303/markdown/">
+<meta property="og:url" content="http://localhost:40303/markdown/basico/basico/">
   <meta property="og:site_name" content="Práctica 1 de HUGO">
-  <meta property="og:title" content="Markdowns">
+  <meta property="og:title" content="Markdown Básico">
+  <meta property="og:description" content="Markdown básico">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="markdown">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Markdowns">
+  <meta name="twitter:title" content="Markdown Básico">
+  <meta name="twitter:description" content="Markdown básico">
 
 
 
     
-        <title>Markdowns · Práctica 1 de HUGO</title>
+        <title>Markdown Básico · Práctica 1 de HUGO</title>
     
 
     
@@ -181,8 +180,6 @@
 
 
 
-
-    <link href="http://localhost:40303/markdown/rss.xml" rel="alternate" type="application/rss+xml">
 
 
     
@@ -538,19 +535,7 @@ table {
                             
 
                             <li class="nav-item ">
-                                <a  aria-current="page"   class=" active  fw-bold text-body-emphasis    nav-link   text-decoration-underline "  href="/markdown/basico"    >Markdown Básico</a>
-
-                                
-                            </li>
-                        
-                            
-                            
-                            
-                            
-                            
-
-                            <li class="nav-item ">
-                                <a  aria-current="page"   class=" active  fw-bold text-body-emphasis    nav-link   text-decoration-underline "  href="/markdown/avanzado"    >Markdown gráficos y extendido</a>
+                                <a  aria-current="page"   class=" active  fw-bold text-body-emphasis    nav-link   text-decoration-underline "  href="/markdown/"    >Markdown</a>
 
                                 
                             </li>
@@ -628,7 +613,7 @@ table {
 
 
 
-<article class="paige-kind-section paige-published" id="paige-page">
+<article class="paige-kind-page paige-published" id="paige-page">
     <div class="align-items-center d-flex flex-column">
         
 
@@ -656,15 +641,39 @@ table {
             
 
             
-                <h1 class="fw-bold" id="paige-page-title">Markdowns</h1>
+                <h1 class="fw-bold" id="paige-page-title">Markdown Básico</h1>
             
 
             
 
             
+                <div id="paige-metadata">
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                        <p class="paige-row-narrow text-center text-secondary" id="paige-reading-time">1 minute</p>
+                    
+                </div>
+            
 
             
 
+            
+                <div class="paige-row-wide" id="paige-toc">
+                    <div class="border pe-3 ps-3 pt-3 rounded">
+                        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#markdown-básico">Markdown básico</a></li>
+  </ul>
+</nav>
+                    </div>
+                </div>
             
 
             
@@ -674,6 +683,9 @@ table {
 
 
         
+            <main class="mw-100" id="paige-content"><h2 id="markdown-básico">Markdown básico<a aria-label="Link to this section" class="paige-header-link" href="#markdown-básico"></a></h2>
+</main>
+        
 
         
 
@@ -685,182 +697,33 @@ table {
 
 
 
+    
 
+    
+
+
+
+    <footer class="mw-100" id="paige-page-footer">
+        
+
+        
+
+        
+            <div id="paige-siblings">
+                
+
+                
+                    <div class="paige-row-narrow text-center text-secondary" id="paige-prev">&lsaquo; <a class="link-secondary" href="http://localhost:40303/markdown/avanzado/avanzado/">Markdown Avanzado</a></div>
+                
+            </div>
+        
+
+        
+    </footer>
 
 
     </div>
 </article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-    <div id="paige-pages">
-        
-
-        
-
-        
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-<div class="paige-page paige-published w-100">
-    
-        <p class="paige-row-narrow paige-title text-center"><a href="/markdown/avanzado/">Markdown Avanzado</a></p>
-    
-
-    
-
-    
-        <p class="fst-italic paige-row-narrow paige-summary text-center">Tablas Para tablas podemos usar los carácteres “|” y “-” :
-Ejemplo:
-| Nombre | Edad | |--------------|--------------| | David | 28 | | María | 26 | Se veria:
-Nombre Edad David 28 María 26 Codigo Para indicar el encabezado de un código utilizamos `Encabezado` y para el código en si podemos utilizar
-```código``` Ejemplo:
-Encabezado
-console.log(&#34;Hola Mundo&#34;); Tareas Para tareas por ejemplo podemos usar:
-- [] - [x] Para indicar que esta realizada Ejemplo:
-</p>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        <p class="paige-reading-time paige-row-narrow text-center text-secondary">1 minute</p>
-    
-</div>
-
-        
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-<div class="paige-page paige-published w-100">
-    
-        <p class="paige-row-narrow paige-title text-center"><a href="/markdown/basico/">Markdown Básico</a></p>
-    
-
-    
-
-    
-        <p class="fst-italic paige-row-narrow paige-summary text-center">Introducción a Markdown Markdown es un lenguaje de marcado ligero que permite crear texto formateado utilizando una sintaxis sencilla. Es ampliamente utilizado para escribir documentación, blogs, y para sistemas de control de versiones como GitHub.
-Markdown Básico Títulos Usa # para crear títulos. Cuantos más #, más bajo el nivel del encabezado.
-Título 1 Título 2 Título 3 Texto en negrita Texto en cursiva Texto tachado
-Listas: Elemento 1 Elemento 2 Elemento 1 Elemento 2 Enlaces e imágenes Visita Hugo
-</p>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        <p class="paige-reading-time paige-row-narrow text-center text-secondary">1 minute</p>
-    
-</div>
-
-        
-
-        
-    
-
-    
-    
-
-    
-
-    </div>
-
 
 
 

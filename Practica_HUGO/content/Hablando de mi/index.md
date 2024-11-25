@@ -1,7 +1,8 @@
 +++
 draft = false
-title = 'Hablando un poco de mi:'
+title = 'Hablando un poco de mi'
 featured_image = "/images/img.png"
+weight = 1
 +++
 ---
 

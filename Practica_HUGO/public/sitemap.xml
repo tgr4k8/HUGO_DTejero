@@ -2,23 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:35255/tv/tv/</loc>
-    <lastmod>2024-10-14T11:01:08+02:00</lastmod>
+    <loc>http://localhost:40303/hablando-de-mi/</loc>
   </url><url>
-    <loc>http://localhost:35255/</loc>
-    <lastmod>2024-10-14T11:01:08+02:00</lastmod>
+    <loc>http://localhost:40303/tv/tv/</loc>
   </url><url>
-    <loc>http://localhost:35255/tv/</loc>
-    <lastmod>2024-10-14T11:01:08+02:00</lastmod>
+    <loc>http://localhost:40303/categories/</loc>
   </url><url>
-    <loc>http://localhost:35255/carrusel/</loc>
+    <loc>http://localhost:40303/markdown/avanzado/</loc>
   </url><url>
-    <loc>http://localhost:35255/categories/</loc>
+    <loc>http://localhost:40303/markdown/basico/</loc>
   </url><url>
-    <loc>http://localhost:35255/principal/</loc>
+    <loc>http://localhost:40303/markdown/</loc>
   </url><url>
-    <loc>http://localhost:35255/markdown/</loc>
+    <loc>http://localhost:40303/</loc>
   </url><url>
-    <loc>http://localhost:35255/tags/</loc>
+    <loc>http://localhost:40303/tags/</loc>
+  </url><url>
+    <loc>http://localhost:40303/tv/</loc>
   </url>
 </urlset>

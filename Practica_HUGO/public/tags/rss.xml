@@ -36,7 +36,7 @@
             
 
             
-                <link href="http://localhost:35255/tags/" rel="self" type="text/html"/>
+                <link href="http://localhost:40303/tags/" rel="self" type="text/html"/>
             
         
             
@@ -44,7 +44,7 @@
             
 
             
-                <link href="http://localhost:35255/tags/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="http://localhost:40303/tags/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -60,7 +60,7 @@
 
         
 
-        <link>http://localhost:35255/tags/</link>
+        <link>http://localhost:40303/tags/</link>
 
         
 

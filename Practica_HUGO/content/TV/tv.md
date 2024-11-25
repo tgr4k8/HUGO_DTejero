@@ -1,9 +1,8 @@
 +++
-title = 'Tv pagina'
-date = 2024-10-14T11:01:08+02:00
+title = 'TV página'
 draft = false
-weight = 10
+weight = 3
 layout = "TV"
 +++
 
-##Listado de canales:
+## Lista de canales:

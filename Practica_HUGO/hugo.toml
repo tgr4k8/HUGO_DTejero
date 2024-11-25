@@ -4,3 +4,26 @@ title = 'Práctica 1 de HUGO'
 contentDir = "content"
 theme = "paige"
 ignoreLogs = ['warning-goldmark-raw-html']
+[menu]
+[[menu.main]]
+  name = "Hablando de mí"
+  url = "/hablando-de-mi/"
+  weight = 1
+
+[[menu.main]]
+  name = "Markdown Básico"
+  url = "/markdown/basico"
+  weight = 2
+
+[[menu.main]]
+    name = "Markdown gráficos y extendido"
+    url = "/markdown/avanzado"
+    weight = 3
+
+[[menu.main]]
+  name = "TV"
+  url = "/tv/"
+  weight = 4
+
+[markup.goldmark.renderer]
+      unsafe = true
