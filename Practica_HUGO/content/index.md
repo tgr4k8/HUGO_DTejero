@@ -19,11 +19,12 @@ que siempre ganaban la batalla. Las ganas joder, eso es lo que mueve todo.
 
 # Mis gustos: 
 
-Al compas del ritmo anterior no puedo encasillarme en un gusto estatico. Conciertos en festivales con osos que bailaban como putos locos 
-dando brazadas intentando no naufragar en un mar de gente, o conciertos de año nuevo en un audorio soltando la lagrimilla que brota de
-un tema de Vivaldi, han sido mis gustos en cuanto a música. No soy fanatico ni hooligan de un estilo único pues creo que en la variedad
-es donde esta la plenitud. En cuanto a comer no tengo dudas, se me hace la boca agua con un bocado a un trozo de carne sebosa bien salada
-cocinada a la brasa, no desprecio a las verduras y admiro a los vegetarienses, pero me puede el sabor a carne fresca.
+Al compás del ritmo anterior, no puedo encasillarme en un gusto estático. Conciertos en festivales con osos que bailaban como locos, dando brazadas 
+e intentando no naufragar en un mar de gente, o conciertos de Año Nuevo en un auditorio, dejando escapar la lagrimilla que brota de un tema de Vivaldi, 
+han formado parte de mis preferencias musicales. No soy fanático ni hooligan de un estilo único, pues creo que en la variedad es donde reside la plenitud.
+
+En cuanto a la comida, no tengo dudas: se me hace la boca agua con un bocado de carne jugosa, bien salada y cocinada a la brasa. No desprecio las verduras 
+y admiro a los vegetarianenses, pero no puedo resistirme al sabor de la carne fresca.
 
 # Sobre mi:
 

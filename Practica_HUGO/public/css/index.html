@@ -21,6 +21,12 @@
 
 
 
+    
+
+    
+
+    
+
 
 
 <script src="/livereload.js?mindelay=10&amp;v=2&amp;port=46379&amp;path=livereload" data-no-instant defer></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.4.0/mermaid.min.js"></script>
@@ -28,7 +34,6 @@
     mermaid.initialize({ startOnLoad: true });
 </script>
 <head>
-	<meta name="generator" content="Hugo 0.139.2">
     
 
     
@@ -51,22 +56,28 @@
 <meta content="#0d6efd" name="theme-color">
 <meta content="width=device-width, initial-scale=1" name="viewport">
 
-<meta property="og:url" content="http://localhost:46379/">
+<meta property="og:url" content="http://localhost:46379/css/">
   <meta property="og:site_name" content="Práctica 1 de HUGO">
-  <meta property="og:title" content="Hablando un poco de mi">
-  <meta property="og:description" content="Mis aficiones: En el tiempo que llevo vivido he pasado por muchos tipos de intereses diferentes. Me considero una de esas personas que no le gusta hacer siempre lo mismo, la monotonia apaga al ser. De pequeño fui a clases de pintura, jugue al futbol en el equipo del barrio, luego pase al balonmano y entre medias también aprendí a tocar la guitarra. Ahora un poco más adulto esa necesidad imperiosa de descubrir cosas nuevas se ha reducido pero sigue ahí ese sentimiento de querer conocer todo lo posible que este inmenso mundo ofrece. La libertad de la movilidad en furgoneta ha hecho que pueda descubir sitios que antes eran solo vacacionales, desde ir a hacer una via ferrata un fin de semana, a subir a picos nevados en agosto, pasando por bucear en playas cristalinas intenando coger escurridizos peces de colores que siempre ganaban la batalla. Las ganas joder, eso es lo que mueve todo.">
+  <meta property="og:title" content="Apuntes sobre CSS">
+  <meta property="og:description" content="Apuntes sobre CSS CSS (Cascading Style Sheets) es un lenguaje que define la apariencia y formato de un documento escrito en HTML. Aquí encontrarás conceptos clave, propiedades importantes y ejemplos prácticos.
+1. Selectores Básicos Los selectores en CSS permiten aplicar estilos a elementos específicos del DOM.
+Algunos de los más comunes son:
+Universal (*): Selecciona todos los elementos. ```css * { margin: 0; padding: 0; } Elemento (h1, p): Aplica estilos a etiquetas específicas. p { color: blue; } Clase (.clase): Selecciona elementos con una clase específica. .destacado { font-weight: bold; } Modelo caja El modelo de caja describe cómo se calculan los tamaños de los elementos en CSS. Incluye las siguientes propiedades:">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Hablando un poco de mi">
-  <meta name="twitter:description" content="Mis aficiones: En el tiempo que llevo vivido he pasado por muchos tipos de intereses diferentes. Me considero una de esas personas que no le gusta hacer siempre lo mismo, la monotonia apaga al ser. De pequeño fui a clases de pintura, jugue al futbol en el equipo del barrio, luego pase al balonmano y entre medias también aprendí a tocar la guitarra. Ahora un poco más adulto esa necesidad imperiosa de descubrir cosas nuevas se ha reducido pero sigue ahí ese sentimiento de querer conocer todo lo posible que este inmenso mundo ofrece. La libertad de la movilidad en furgoneta ha hecho que pueda descubir sitios que antes eran solo vacacionales, desde ir a hacer una via ferrata un fin de semana, a subir a picos nevados en agosto, pasando por bucear en playas cristalinas intenando coger escurridizos peces de colores que siempre ganaban la batalla. Las ganas joder, eso es lo que mueve todo.">
+  <meta name="twitter:title" content="Apuntes sobre CSS">
+  <meta name="twitter:description" content="Apuntes sobre CSS CSS (Cascading Style Sheets) es un lenguaje que define la apariencia y formato de un documento escrito en HTML. Aquí encontrarás conceptos clave, propiedades importantes y ejemplos prácticos.
+1. Selectores Básicos Los selectores en CSS permiten aplicar estilos a elementos específicos del DOM.
+Algunos de los más comunes son:
+Universal (*): Selecciona todos los elementos. ```css * { margin: 0; padding: 0; } Elemento (h1, p): Aplica estilos a etiquetas específicas. p { color: blue; } Clase (.clase): Selecciona elementos con una clase específica. .destacado { font-weight: bold; } Modelo caja El modelo de caja describe cómo se calculan los tamaños de los elementos en CSS. Incluye las siguientes propiedades:">
 
 
 
     
-        <title>Hablando un poco de mi</title>
+        <title>Apuntes sobre CSS · Hablando un poco de mi</title>
     
 
     
@@ -178,8 +189,6 @@
 
 
 
-
-    <link href="http://localhost:46379/rss.xml" rel="alternate" type="application/rss+xml">
 
 
     
@@ -583,7 +592,7 @@ table {
                             
 
                             <li class="nav-item ">
-                                <a   class="  nav-link   text-decoration-underline "  href="/css/"    >Apuntes CSS</a>
+                                <a  aria-current="page"   class=" active  fw-bold text-body-emphasis    nav-link   text-decoration-underline "  href="/css/"    >Apuntes CSS</a>
 
                                 
                             </li>
@@ -593,6 +602,24 @@ table {
             
         
 
+        
+            <nav aria-label="Breadcrumbs" class="paige-row-wide" id="paige-breadcrumbs">
+                <div class="d-flex justify-content-center">
+                    <ol class="breadcrumb mb-0">
+                        
+
+                        
+
+                        
+                            
+
+                            
+
+                            <li class="breadcrumb-item"><a href="/">Hablando un poco de mi</a></li>
+                        
+                    </ol>
+                </div>
+            </nav>
         
 
         
@@ -631,7 +658,7 @@ table {
 
 
 
-<article class="paige-kind-home paige-published" id="paige-page">
+<article class="paige-kind-page paige-published" id="paige-page">
     <div class="align-items-center d-flex flex-column">
         
 
@@ -659,7 +686,7 @@ table {
             
 
             
-                <h1 class="fw-bold" id="paige-page-title">Hablando un poco de mi</h1>
+                <h1 class="fw-bold" id="paige-page-title">Apuntes sobre CSS</h1>
             
 
             
@@ -675,13 +702,24 @@ table {
                     
 
                     
-                        <p class="paige-row-narrow text-center text-secondary" id="paige-reading-time">2 minutes</p>
+                        <p class="paige-row-narrow text-center text-secondary" id="paige-reading-time">1 minute</p>
                     
                 </div>
             
 
             
 
+            
+                <div class="paige-row-wide" id="paige-toc">
+                    <div class="border pe-3 ps-3 pt-3 rounded">
+                        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-selectores-básicos">1. <strong>Selectores Básicos</strong></a></li>
+    <li><a href="#modelo-caja">Modelo caja</a></li>
+  </ul>
+</nav>
+                    </div>
+                </div>
             
 
             
@@ -692,24 +730,49 @@ table {
 
         
             <main class="mw-100" id="paige-content"><hr>
-<h1 id="mis-aficiones">Mis aficiones:<a aria-label="Link to this section" class="paige-header-link" href="#mis-aficiones"></a></h1>
-<p>En el tiempo que llevo vivido he pasado por muchos tipos de intereses diferentes. Me considero una de esas personas
-que no le gusta hacer siempre lo mismo, la monotonia apaga al ser. De pequeño fui a clases de pintura, jugue al futbol en el equipo del barrio,
-luego pase al balonmano y entre medias también aprendí a tocar la guitarra. Ahora un poco más adulto esa necesidad imperiosa de descubrir
-cosas nuevas se ha reducido pero sigue ahí ese sentimiento de querer conocer todo lo posible que este inmenso mundo ofrece.
-La libertad de la movilidad en furgoneta ha hecho que pueda descubir sitios que antes eran solo vacacionales, desde ir a hacer una via
-ferrata un fin de semana, a subir a picos nevados en agosto, pasando por bucear en playas cristalinas intenando coger escurridizos peces de colores
-que siempre ganaban la batalla. Las ganas joder, eso es lo que mueve todo.</p>
-<h1 id="mis-gustos">Mis gustos:<a aria-label="Link to this section" class="paige-header-link" href="#mis-gustos"></a></h1>
-<p>Al compas del ritmo anterior no puedo encasillarme en un gusto estatico. Conciertos en festivales con osos que bailaban como putos locos
-dando brazadas intentando no naufragar en un mar de gente, o conciertos de año nuevo en un audorio soltando la lagrimilla que brota de
-un tema de Vivaldi, han sido mis gustos en cuanto a música. No soy fanatico ni hooligan de un estilo único pues creo que en la variedad
-es donde esta la plenitud. En cuanto a comer no tengo dudas, se me hace la boca agua con un bocado a un trozo de carne sebosa bien salada
-cocinada a la brasa, no desprecio a las verduras y admiro a los vegetarienses, pero me puede el sabor a carne fresca.</p>
-<h1 id="sobre-mi">Sobre mi:<a aria-label="Link to this section" class="paige-header-link" href="#sobre-mi"></a></h1>
-<p>Un lobo que necesita a la manada pero que entiende que en la lucha solo puedes usar tus propias garras.</p>
-<p><img src="/images/img.png" alt="Foto de ejemplo"></p>
-</main>
+<h1 id="apuntes-sobre-css">Apuntes sobre CSS<a aria-label="Link to this section" class="paige-header-link" href="#apuntes-sobre-css"></a></h1>
+<p>CSS (Cascading Style Sheets) es un lenguaje que define la apariencia y formato de un documento escrito en HTML. Aquí encontrarás conceptos clave, propiedades importantes y ejemplos prácticos.</p>
+<hr>
+<h2 id="1-selectores-básicos">1. <strong>Selectores Básicos</strong><a aria-label="Link to this section" class="paige-header-link" href="#1-selectores-básicos"></a></h2>
+<p>Los selectores en CSS permiten aplicar estilos a elementos específicos del DOM.<br>
+Algunos de los más comunes son:</p>
+<ul>
+<li><strong>Universal (<code>*</code>)</strong>: Selecciona todos los elementos.</li>
+</ul>
+<pre tabindex="0"><code>  ```css
+  * {
+      margin: 0;
+      padding: 0;
+  }
+</code></pre><ul>
+<li>Elemento (h1, p): Aplica estilos a etiquetas específicas.</li>
+</ul>
+<pre tabindex="0"><code>p {
+color: blue;
+}
+</code></pre><ul>
+<li>Clase (.clase): Selecciona elementos con una clase específica.</li>
+</ul>
+<pre tabindex="0"><code>.destacado {
+    font-weight: bold;
+}
+</code></pre><h2 id="modelo-caja">Modelo caja<a aria-label="Link to this section" class="paige-header-link" href="#modelo-caja"></a></h2>
+<p>El modelo de caja describe cómo se calculan los tamaños de los elementos en CSS.
+Incluye las siguientes propiedades:</p>
+<pre><code>Content: El contenido del elemento.
+Padding: Espacio entre el contenido y el borde.
+Border: El borde alrededor del padding.
+Margin: Espacio externo fuera del borde.
+</code></pre>
+<p>Ejemplo:</p>
+<pre tabindex="0"><code>div {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 20px;
+}
+</code></pre></main>
         
 
         
@@ -731,32 +794,6 @@ cocinada a la brasa, no desprecio a las verduras y admiro a los vegetarienses, p
 
     </div>
 </article>
-
-
-
-
-
-
-
-
-
-
-    
-        
-    
-        
-    
-
-
-
-
-
-
-
-
-
-
-
 
 
 
