@@ -1,4 +1,4 @@
-baseURL = 'https://tgr4k8.github.io/HUGO_DTejero'
+baseURL = 'https://tgr4k8.github.io/'
 languageCode = 'en-us'
 title = 'Práctica 1 de HUGO'
 contentDir = "content"
