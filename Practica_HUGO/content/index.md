@@ -30,4 +30,4 @@ y admiro a los vegetarianenses, pero no puedo resistirme al sabor de la carne fr
 
 Un lobo que necesita a la manada pero que entiende que en la lucha solo puedes usar tus propias garras.
 
-![Foto de ejemplo](/images/img.png)
+![Foto de ejemplo](./images/img.png)
