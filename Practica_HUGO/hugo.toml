@@ -12,27 +12,27 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [[menu.main]]
   name = "Markdown Básico"
-  url = "/markdown/basico"
+  url = "./markdown/basico"
   weight = 2
 
 [[menu.main]]
     name = "Markdown gráficos y extendido"
-    url = "/markdown/avanzado"
+    url = "./markdown/avanzado"
     weight = 3
 
 [[menu.main]]
   name = "TV"
-  url = "/tv/"
+  url = "./tv/"
   weight = 4
 
  [[menu.main]]
    name = "Viaje a Suiza"
-   url = "/Verano en Suiza/"
+   url = "./Verano en Suiza/"
    weight = 5
 
 [[menu.main]]
    name = "Apuntes CSS"
-   url = "/CSS/"
+   url = "./CSS/"
    weight = 6
 
 [markup.goldmark.renderer]
