@@ -1,4 +1,4 @@
-baseURL = 'https://tgr4k8.github.io/HUGO_DTejero/'
+baseURL = 'https://tgr4k8.github.io/hugo_dtejero/'
 languageCode = 'en-us'
 title = 'Práctica 1 de HUGO'
 contentDir = "content"
@@ -11,7 +11,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [[menu.main]]
   name = "Hablando de mí"
-  url = "/HUGO_DTejero/"
+  url = "/hugo_dtejero/"
   weight = 1
 
 [[menu.main]]

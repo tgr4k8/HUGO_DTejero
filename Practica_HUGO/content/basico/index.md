@@ -66,11 +66,11 @@ Ejemplo:
 ``` 
 [Visita Hugo](https://gohugo.io)
 
-![Imagen de archivo](/images/img.png)
+![Imagen de archivo](./images/img.png)
 
 ```
 Esto se ve: 
 
 [Visita Hugo](https://gohugo.io)
 
-![Imagen de archivo](/images/img.png)
+![Imagen de archivo](./images/img.png)
