@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://tgr4k8.github.io/HUGO_DTejero'
 languageCode = 'en-us'
 title = 'Práctica 1 de HUGO'
 contentDir = "content"
@@ -7,32 +7,32 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [menu]
 [[menu.main]]
   name = "Hablando de mí"
-  url = "./"
+  url = "/"
   weight = 1
 
 [[menu.main]]
   name = "Markdown Básico"
-  url = "./markdown/basico"
+  url = "/markdown/basico"
   weight = 2
 
 [[menu.main]]
     name = "Markdown gráficos y extendido"
-    url = "./markdown/avanzado"
+    url = "/markdown/avanzado"
     weight = 3
 
 [[menu.main]]
   name = "TV"
-  url = "./tv/"
+  url = "/tv/"
   weight = 4
 
  [[menu.main]]
    name = "Viaje a Suiza"
-   url = "./Verano en Suiza/"
+   url = "/Verano en Suiza/"
    weight = 5
 
 [[menu.main]]
    name = "Apuntes CSS"
-   url = "./CSS/"
+   url = "/CSS/"
    weight = 6
 
 [markup.goldmark.renderer]
