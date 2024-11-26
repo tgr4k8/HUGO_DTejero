@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:46179/</loc>
+    <loc>http://localhost:43223/HUGO_DTejero/</loc>
   </url><url>
-    <loc>http://localhost:46179/categories/</loc>
+    <loc>http://localhost:43223/HUGO_DTejero/categories/</loc>
   </url><url>
-    <loc>http://localhost:46179/tags/</loc>
+    <loc>http://localhost:43223/HUGO_DTejero/tags/</loc>
   </url>
 </urlset>

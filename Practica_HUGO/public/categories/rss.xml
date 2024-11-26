@@ -36,7 +36,7 @@
             
 
             
-                <link href="http://localhost:46179/categories/" rel="self" type="text/html"/>
+                <link href="http://localhost:43223/HUGO_DTejero/categories/" rel="self" type="text/html"/>
             
         
             
@@ -44,7 +44,7 @@
             
 
             
-                <link href="http://localhost:46179/categories/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="http://localhost:43223/HUGO_DTejero/categories/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -60,7 +60,7 @@
 
         
 
-        <link>http://localhost:46179/categories/</link>
+        <link>http://localhost:43223/HUGO_DTejero/categories/</link>
 
         
 
