@@ -1,8 +1,6 @@
 +++
 draft =  false
 title = "Apuntes sobre CSS"
-
-draft=  false
 +++
 ---
 # Apuntes sobre CSS
