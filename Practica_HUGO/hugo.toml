@@ -30,13 +30,9 @@ ignoreLogs = ['warning-goldmark-raw-html']
   weight = 4
 
  [[menu.main]]
-<<<<<<< HEAD
-   name = "Verano en Suiza"
-   url = "/Verano en Suiza/"
-=======
+
    name = "Viaje a Suiza"
    url = "/verano-en-suiza/"
->>>>>>> refs/remotes/origin/main
    weight = 5
 
 [[menu.main]]
