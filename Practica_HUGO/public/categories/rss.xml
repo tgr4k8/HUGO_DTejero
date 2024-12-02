@@ -36,7 +36,7 @@
             
 
             
-                <link href="http://localhost:35889/categories/" rel="self" type="text/html"/>
+                <link href="http://localhost:38497/hugo_dtejero/categories/" rel="self" type="text/html"/>
             
         
             
@@ -44,7 +44,7 @@
             
 
             
-                <link href="http://localhost:35889/categories/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="http://localhost:38497/hugo_dtejero/categories/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -60,11 +60,11 @@
 
         
 
-        <link>http://localhost:35889/categories/</link>
+        <link>http://localhost:38497/hugo_dtejero/categories/</link>
 
         
 
-        <title>Categories · Práctica 1 de HUGO</title>
+        <title>Categories · Hablando un poco de mi</title>
 
         
 

@@ -1,23 +1,27 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://tgr4k8.github.io/hugo_dtejero/'
 languageCode = 'en-us'
 title = 'Práctica 1 de HUGO'
 contentDir = "content"
 theme = "paige"
+
+
+
 ignoreLogs = ['warning-goldmark-raw-html']
 [menu]
+
 [[menu.main]]
   name = "Hablando de mí"
-  url = "/hablando-de-mi/"
+  url = "/hugo_dtejero/"
   weight = 1
 
 [[menu.main]]
   name = "Markdown Básico"
-  url = "/markdown/basico"
+  url = "/basico/"
   weight = 2
 
 [[menu.main]]
     name = "Markdown gráficos y extendido"
-    url = "/markdown/avanzado"
+    url = "/avanzado/"
     weight = 3
 
 [[menu.main]]
@@ -26,9 +30,19 @@ ignoreLogs = ['warning-goldmark-raw-html']
   weight = 4
 
  [[menu.main]]
+<<<<<<< HEAD
    name = "Verano en Suiza"
    url = "/Verano en Suiza/"
+=======
+   name = "Viaje a Suiza"
+   url = "/verano-en-suiza/"
+>>>>>>> refs/remotes/origin/main
    weight = 5
+
+[[menu.main]]
+   name = "Apuntes CSS"
+   url = "/css/"
+   weight = 6
 
 [markup.goldmark.renderer]
       unsafe = true
