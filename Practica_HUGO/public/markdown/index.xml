@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdowns on Práctica 1 de HUGO</title>
+    <link>http://localhost:1313/markdown/</link>
+    <description>Recent content in Markdowns on Práctica 1 de HUGO</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Avanzado</title>
+      <link>http://localhost:1313/markdown/avanzado/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/markdown/avanzado/</guid>
+      <description>&lt;h2 id=&#34;tablas&#34;&gt;Tablas&lt;/h2&gt;&#xA;&lt;p&gt;Para tablas podemos usar los carácteres &amp;ldquo;|&amp;rdquo; y &amp;ldquo;-&amp;rdquo; :&lt;/p&gt;&#xA;&lt;p&gt;Ejemplo:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;| Nombre       | Edad         |&#xA;|--------------|--------------|&#xA;| David        | 28           |&#xA;| María        | 26           |&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Se veria:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Nombre&lt;/th&gt;&#xA;          &lt;th&gt;Edad&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;David&lt;/td&gt;&#xA;          &lt;td&gt;28&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;María&lt;/td&gt;&#xA;          &lt;td&gt;26&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;codigo&#34;&gt;Codigo&lt;/h2&gt;&#xA;&lt;p&gt;Para indicar el encabezado de un código utilizamos &lt;code&gt;`Encabezado`&lt;/code&gt; y para el código en si&#xA;podemos utilizar&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;```código``` &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ejemplo:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Encabezado&lt;/code&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hola Mundo&amp;#34;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;tareas&#34;&gt;Tareas&lt;/h2&gt;&#xA;&lt;p&gt;Para tareas por ejemplo podemos usar:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;- []  &#xA;- [x] Para indicar que esta realizada&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ejemplo:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown Básico</title>
+      <link>http://localhost:1313/markdown/basico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/markdown/basico/</guid>
+      <description>&lt;h1 id=&#34;introducción-a-markdown&#34;&gt;Introducción a Markdown&lt;/h1&gt;&#xA;&lt;p&gt;Markdown es un lenguaje de marcado ligero que permite crear texto formateado utilizando una sintaxis sencilla. Es ampliamente utilizado para escribir documentación, blogs, y para sistemas de control de versiones como GitHub.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;markdown-básico&#34;&gt;Markdown Básico&lt;/h2&gt;&#xA;&lt;h3 id=&#34;títulos&#34;&gt;Títulos&lt;/h3&gt;&#xA;&lt;p&gt;Usa &lt;code&gt;#&lt;/code&gt; para crear títulos. Cuantos más &lt;code&gt;#&lt;/code&gt;, más bajo el nivel del encabezado.&#xA;Ejemplo:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Título 1&#xA;## Título 2&#xA;### Título 3&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Que se verían:&lt;/p&gt;&#xA;&lt;h1 id=&#34;título-1&#34;&gt;Título 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;título-2&#34;&gt;Título 2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;título-3&#34;&gt;Título 3&lt;/h3&gt;&#xA;&lt;h2 id=&#34;formatos-de-texto&#34;&gt;Formatos de texto&lt;/h2&gt;&#xA;&lt;p&gt;Ejemplo de negrita, cursiva y tachado:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

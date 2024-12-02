@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:35889/hablando-de-mi/</loc>
+    <loc>http://localhost:1313/hablando-de-mi/</loc>
   </url><url>
-    <loc>http://localhost:35889/tv/tv/</loc>
+    <loc>http://localhost:1313/tv/tv/</loc>
   </url><url>
-    <loc>http://localhost:35889/verano-en-suiza/</loc>
+    <loc>http://localhost:1313/verano-en-suiza/</loc>
   </url><url>
-    <loc>http://localhost:35889/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:35889/markdown/avanzado/</loc>
+    <loc>http://localhost:1313/markdown/avanzado/</loc>
   </url><url>
-    <loc>http://localhost:35889/markdown/basico/</loc>
+    <loc>http://localhost:1313/markdown/basico/</loc>
   </url><url>
-    <loc>http://localhost:35889/markdown/</loc>
+    <loc>http://localhost:1313/markdown/</loc>
   </url><url>
-    <loc>http://localhost:35889/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:35889/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:35889/tv/</loc>
+    <loc>http://localhost:1313/tv/</loc>
   </url>
 </urlset>

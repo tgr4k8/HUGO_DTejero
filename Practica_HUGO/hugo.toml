@@ -26,7 +26,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   weight = 4
 
  [[menu.main]]
-   name = "Suiza"
+   name = "Verano en Suiza"
    url = "/Verano en Suiza/"
    weight = 5
 
